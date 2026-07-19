@@ -26,8 +26,8 @@ function resetScore() {
 score.tie++
           document.querySelector('.jsresult').innerHTML = "It's a tie!";
           document.querySelector('.jsmove').innerHTML = `YOU-
-        <img src="image/${move}-emoji.png" class="move">
-        <img src="image/${compmove}-emoji.png" class="move">
+        <img src="${move}-emoji.png" class="move">
+        <img src="${compmove}-emoji.png" class="move">
         -COMPUTER`;
           
 
@@ -35,8 +35,8 @@ score.tie++
 score.wins++
           document.querySelector('.jsresult').innerHTML = "You win!";
           document.querySelector('.jsmove').innerHTML = `YOU-
-        <img src="image/${move}-emoji.png" class="move">
-        <img src="image/${compmove}-emoji.png" class="move">
+        <img src="${move}-emoji.png" class="move">
+        <img src="${compmove}-emoji.png" class="move">
         -COMPUTER`;
           
 
@@ -44,16 +44,16 @@ score.wins++
 score.wins++
           document.querySelector('.jsresult').innerHTML = "You win!";
           document.querySelector('.jsmove').innerHTML =  `YOU-
-        <img src="image/${move}-emoji.png" class="move">
-        <img src="image/${compmove}-emoji.png" class="move">
+        <img src="${move}-emoji.png" class="move">
+        <img src="${compmove}-emoji.png" class="move">
         -COMPUTER`;
 
         } else if (move === 'scissors' && compmove === 'paper') {
 score.wins++
           document.querySelector('.jsresult').innerHTML = "You win!";
           document.querySelector('.jsmove').innerHTML =  `YOU-
-        <img src="image/${move}-emoji.png" class="move">
-        <img src="image/${compmove}-emoji.png" class="move">
+        <img src="${move}-emoji.png" class="move">
+        <img src="${compmove}-emoji.png" class="move">
         -COMPUTER`;
           
 
@@ -61,8 +61,8 @@ score.wins++
 score.losses++
           document.querySelector('.jsresult').innerHTML = "You lose!";
           document.querySelector('.jsmove').innerHTML =  `YOU-
-        <img src="image/${move}-emoji.png" class="move">
-        <img src="image/${compmove}-emoji.png" class="move">
+        <img src="${move}-emoji.png" class="move">
+        <img src="${compmove}-emoji.png" class="move">
         -COMPUTER`;
           
 
